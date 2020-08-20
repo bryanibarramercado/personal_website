@@ -1,0 +1,8 @@
+.vscode
+__pycache__
+cd
+static
+templates
+FlaskApp.wsgi
+__init__.py
+FlaskApp/nano.save
