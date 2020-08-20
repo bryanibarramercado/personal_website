@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Bryan Ibarra's Page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+<style>
+    .jumbotron { 
+      background-color: #000000;
+      color: #ffffff;
+      min-height: 500px;
+    }
+    </style>
+</head>
+<body style="background-color:black">
+    <div class="jumbotron container-fluid" style="display: flex; justify-content: center;">
+        <div style="float: left;">
+            <img src="./static/bryan_portrait.png" alt="Img" width="350" height="350">
+        </div>
+        <div style="float: left; justify-content: center">
+            <h1>Bryan Ibarra</h1>
+            <ul>
+                <li><h3>Aspiring Web Developer, physics enthusiast and engineer in the making</h3></li>
+                <li><h3 style="margin: 0 100px 0 0;">Master's in Electrical Engineering at Iowa State University (In Progress)</h3></li>
+                <li><h3>Bachelor's in Physics at Arizona State University</h3></li>
+                <li><h3>GPA: 3.66 (Magna Cum Laude)</h3></li>
+            </ul>
+            <h2>Current Coding Projects</h2>
+            <ul>
+                <li><h3>Stock Trend Analyzer (C# with external API calls)</h3></li>
+                <li><h3>Expanding this site (Python's Flask and CSS/HTML/JS)</h3></li>
+                <li><h3>Automating excel data (Python's Pandas and Numpy)</h3></li>
+                <li><h3>Relational Database Management (SQLite and Python's Flask)</h3></li>
+            </ul>
+            <h2>Current Enrollment</h2>
+            <ul>
+                <li><h3>EE 512: Advanced Electromagnetic Field Theory</h3></li>
+                <li><h3>EE 531: Micro-Nanosystems and Devices</h3></li>
+                <li><h3>EE 577: Linear Systems</h3></li>
+                <li><h3>EE 526: Deep Learning: Theory and Practice</h3></li>
+            </ul>
+            <h2>Undergraduate Research</h2>
+            <ul>
+                <li><h3>Member of <a href="https://isearch.asu.edu/profile/267342">Dr. Nathan Newman's research group</a></h3></li>
+                <li><h3>Work under the Newman research group at ASU. Using electrical measuring techniques for material characterization of Josephson junctions, superconductors, IC and various diode semiconductor devices.</h3></li>
+                <li><h3>Part of a paper that is in review currently.</h3></li>
+                <li><h3>Current vs Voltage-measurements for Josephson junctions, diodes, superconductors as well as other solid-state devices as a function of temperature all the way down to 50 K, roughly a year of experience.</h3></li>
+                <li><h3>Capacitance vs Voltage-During this time I also did capacitance vs voltage measurements for diodes extensively and other semiconductor devices at cryogenic temperature readings all the way up to 50 K, one-year experience.</h3></li>
+                <li><h3>Resistance vs Voltage - Did this for Superconductor devices of various natures all the way down to 4 K, roughly a year of experience.</h3></li>
+                <li><h3>Wire bonding both manual and with ultrasonic wire bonder – Wire bonded and helped with the packaging of several devices with the aim to make them compatible with our 44-pin socket system.</h3></li>
+                <li><h3>Hall measurement- Did Hall measurements using various devices with varying magnetic field strengths. Measured devices in a simple Hall set up with water cooling as well as a SQUID device with liquid Helium cooling in order to carry out the hall measurements.</h3></li>
+            </ul>
+        </div>
+        <div style="float: left;">
+            <img src="./static/isu.jpg" alt="Img" width="150" height="150">
+            <img src="./static/asu.jpg" alt="Img" width="150" height="150">
+            <img src="./static/mcc.png" alt="Img" width="150" height="150">
+        </div>
+        <div>
+            <h1>Questions? Contact me at <a href="mailto: bibarram@asu.edu">bibarram@asu.edu</a></h1>
+            <h1>Github<br><a href="https://github.com/bryanibarramercado">github.com/bryanibarramercado</a></h1>
+        </div>
+    </div>
+</body>
+</html>
